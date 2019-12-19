@@ -1,0 +1,15 @@
+header {
+  width: 100%;
+  background: #000;
+  margin-bottom: 10px;
+}
+
+header .title {
+  min-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px;
+}

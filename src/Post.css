@@ -1,0 +1,136 @@
+h2 {
+  text-align: center;
+  width: 100%;
+}
+
+.form-container {
+  min-height: 45vh;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid;
+  position: relative;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-container .input {
+  width: 95%;
+  margin: 10px;
+  padding: 5px;
+  font-size: 18px;
+  box-shadow: -2px 0px 1px 0 rgba(0, 0, 0, 0.2),
+    0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.textarea {
+  height: 60px;
+}
+
+.add {
+  position: relative;
+  margin-bottom: 10px;
+  left: 40%;
+  height: 50px;
+  width: 25%;
+  margin: 0 auto;
+  border-radius: 3%;
+  background-image: linear-gradient(
+    to right,
+    #94b7e2 0%,
+    #79cbca 51%,
+    #a2bee0 100%
+  );
+}
+.listItem {
+  margin: 0 auto;
+  width: 70%;
+}
+ul {
+  list-style: none;
+}
+.list-li {
+  position: relative;
+  padding: 16px;
+  margin: 14px;
+  font-size: 33px;
+  box-shadow: 1px 1px 5px #888888;
+}
+#cross {
+  width: 30px;
+  height: 32px;
+  background-color: #904bea;
+  color: white;
+  border: none;
+  font-size: 25px;
+}
+
+.list-li .title {
+  width: 90%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.list-li .btn {
+  width: 10px;
+  height: 12px;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.card {
+  margin: 0 auto;
+  margin-top: 12px;
+  width: 100%;
+  border: 1px solid;
+  position: relative;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card .title,
+.description {
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+.card .title {
+  width: 100%;
+  font-weight: 600;
+  margin-top: 10px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+.card .btn-container {
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  border-top: 1px solid;
+  padding-top: 10px;
+}
+
+.card .description {
+  margin-bottom: 5px;
+}
+
+.card .btn-container button {
+  height: 30px;
+  width: 20%;
+  margin: 0 auto;
+  margin-left: 10px;
+
+  border-radius: 3px;
+  background-image: linear-gradient(
+    to right,
+    #94b7e2 0%,
+    #79cbca 51%,
+    #a2bee0 100%
+  );
+}
